@@ -8,7 +8,7 @@
 
 #import "beihangMOOCCourseView.h"
 #import "beihangMOOCCourseViewCell.h"
-
+#import "beihangMOOCCourseDetailView.h"
 
 
 @interface beihangMOOCCourseView ()
@@ -32,7 +32,7 @@
     
 }
 
-
+//此处：从服务器获取课程信息后创建课程数组，标号，segue传数据时根据编号判断课程
 
 - (void)didReceiveMemoryWarning
 {
@@ -54,14 +54,13 @@
 }
 
 
-/*
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"coursetoDetail"])
     {
-        //传输相应的课程号并读取
+        beihangMOOCCourseDetailView *dest = [segue destinationViewController];
+        dest.courseID = @"课程ID";
     }
 }
-*/
 
 @end

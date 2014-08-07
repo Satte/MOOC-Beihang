@@ -61,6 +61,7 @@
 		97FB0CB01992809200BB08B5 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C8F1992809200BB08B5 /* 7.JPG */; };
 		97FB0CB11992809200BB08B5 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C901992809200BB08B5 /* 8.JPG */; };
 		97FB0CB21992809200BB08B5 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C911992809200BB08B5 /* 9.JPG */; };
+		97FB0CB51993867D00BB08B5 /* beihangMOOCCourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,8 @@
 		97FB0C8F1992809200BB08B5 /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
 		97FB0C901992809200BB08B5 /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
 		97FB0C911992809200BB08B5 /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
+		97FB0CB31993867D00BB08B5 /* beihangMOOCCourseDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beihangMOOCCourseDetailView.h; sourceTree = "<group>"; };
+		97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beihangMOOCCourseDetailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +211,8 @@
 				97FB0C6E19927F0400BB08B5 /* beihangMOOCCourseView.m */,
 				97FB0C6A19927DCD00BB08B5 /* beihangMOOCCourseViewCell.h */,
 				97FB0C6B19927DCD00BB08B5 /* beihangMOOCCourseViewCell.m */,
+				97FB0CB31993867D00BB08B5 /* beihangMOOCCourseDetailView.h */,
+				97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */,
 				97FB0C1F198CBFF500BB08B5 /* Supporting Files */,
 			);
 			path = "MOOC@Beihang";
@@ -429,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97FB0CB51993867D00BB08B5 /* beihangMOOCCourseDetailView.m in Sources */,
 				97FB0C6C19927DCD00BB08B5 /* beihangMOOCCourseViewCell.m in Sources */,
 				97FB0C54198CF5C000BB08B5 /* beihangMOOCLoginView.m in Sources */,
 				97FB0C29198CBFF500BB08B5 /* AppDelegate.m in Sources */,
@@ -649,6 +655,7 @@
 				97FB0C4C198CBFF500BB08B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97FB0C4D198CBFF500BB08B5 /* Build configuration list for PBXNativeTarget "MOOC@BeihangTests" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +664,7 @@
 				97FB0C4F198CBFF500BB08B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
