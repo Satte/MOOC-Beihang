@@ -16,6 +16,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *txtUser;
 @property (weak, nonatomic) IBOutlet UITextField *txtPass;
+@property (weak, nonatomic) IBOutlet UIButton *login;
 
 - (IBAction)startPass:(id)sender;
 - (IBAction)returnPass:(id)sender;
@@ -26,6 +27,7 @@
 - (IBAction)exitUser:(id)sender;
 
 - (IBAction)backTap:(id)sender;
+- (IBAction)login:(id)sender;
 
 - (void)loginwithAnonymous:(BOOL)anonymity;
 - (void)startEditing;

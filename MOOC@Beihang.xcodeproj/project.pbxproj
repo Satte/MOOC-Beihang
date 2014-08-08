@@ -62,6 +62,7 @@
 		97FB0CB11992809200BB08B5 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C901992809200BB08B5 /* 8.JPG */; };
 		97FB0CB21992809200BB08B5 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C911992809200BB08B5 /* 9.JPG */; };
 		97FB0CB51993867D00BB08B5 /* beihangMOOCCourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */; };
+		97FB0CB7199494B900BB08B5 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0CB6199494B900BB08B5 /* login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		97FB0C911992809200BB08B5 /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
 		97FB0CB31993867D00BB08B5 /* beihangMOOCCourseDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beihangMOOCCourseDetailView.h; sourceTree = "<group>"; };
 		97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beihangMOOCCourseDetailView.m; sourceTree = "<group>"; };
+		97FB0CB6199494B900BB08B5 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 		97FB0C581990C6AC00BB08B5 /* Bar Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				97FB0CB6199494B900BB08B5 /* login.png */,
 				97FB0C5F1990C9ED00BB08B5 /* courses.png */,
 				97FB0C601990C9ED00BB08B5 /* edit.png */,
 				97FB0C611990C9ED00BB08B5 /* settings.png */,
@@ -394,6 +397,7 @@
 				97FB0CB01992809200BB08B5 /* 7.JPG in Resources */,
 				97FB0C641990C9ED00BB08B5 /* settings.png in Resources */,
 				97FB0C631990C9ED00BB08B5 /* edit.png in Resources */,
+				97FB0CB7199494B900BB08B5 /* login.png in Resources */,
 				97FB0CB21992809200BB08B5 /* 9.JPG in Resources */,
 				97FB0CAE1992809200BB08B5 /* 5.JPG in Resources */,
 				97FB0C9E1992809200BB08B5 /* 19.JPG in Resources */,

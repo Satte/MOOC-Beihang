@@ -54,7 +54,6 @@
 - (IBAction)regAccount:(id)sender
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://mooc.buaa.edu.cn/register"]];
-
 }
 
 
@@ -62,6 +61,7 @@
 {
     [self resignFirstResponder];
     [self loginwithAnonymous:NO];
+    _login.hidden = YES;
 }
 
 - (IBAction)startPass:(id)sender
@@ -78,6 +78,7 @@
 - (IBAction)exitPass:(id)sender
 {
     [self endEditing];
+    _login.hidden = NO;
 }
 
 - (IBAction)startUser:(id)sender
@@ -95,6 +96,11 @@
     [_txtUser resignFirstResponder];
     [_txtPass resignFirstResponder];
     [self endEditing];
+}
+
+- (IBAction)login:(id)sender
+{
+    [self loginwithAnonymous:NO];
 }
 
 //下面两个应用至iPhone时需要更改

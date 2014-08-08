@@ -227,6 +227,14 @@
                                 <rect key="frame" x="374" y="605" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjI-VA-jeh">
+                                <rect key="frame" x="630" y="750" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="login.png"/>
+                                <connections>
+                                    <action selector="login:" destination="g6q-gf-dNM" eventType="touchUpInside" id="giK-Fm-Owo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -234,6 +242,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="login" destination="KjI-VA-jeh" id="Kji-dG-hNC"/>
                         <outlet property="prog" destination="atc-FX-zTs" id="ZxJ-E6-JXb"/>
                         <outlet property="txtPass" destination="aa8-bO-AgF" id="1gS-RO-MtQ"/>
                         <outlet property="txtUser" destination="Rvl-n9-hVW" id="2hx-nP-0fB"/>
@@ -463,6 +472,7 @@
         <image name="buaa_logo.png" width="1004" height="1004"/>
         <image name="courses.png" width="32" height="32"/>
         <image name="edit.png" width="32" height="32"/>
+        <image name="login.png" width="32" height="32"/>
         <image name="settings.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
