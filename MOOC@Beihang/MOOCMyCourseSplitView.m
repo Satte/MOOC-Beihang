@@ -1,18 +1,19 @@
 //
-//  beihangMOOCCourseDetailView.m
+//  MOOCMyCourseSplitView.m
 //  MOOC@Beihang
 //
-//  Created by Satte on 14-8-7.
+//  Created by Satte on 14-8-17.
 //  Copyright (c) 2014年 admire. All rights reserved.
 //
 
-#import "beihangMOOCCourseDetailView.h"
+#import "MOOCMyCourseSplitView.h"
+#
 
-@interface beihangMOOCCourseDetailView ()
+@interface MOOCMyCourseSplitView ()
 
 @end
 
-@implementation beihangMOOCCourseDetailView
+@implementation MOOCMyCourseSplitView
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,17 +24,13 @@
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    _name.text = @"全力打造具有中部地区特征的江西共青团工作新格局并团结带领团员青年在鄱阳湖生态经济区建设中发挥生力军作用";
-    _img.image = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"0" ofType:@"JPG"]];
-    
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"%@",self.viewControllers);
+    _list = [[(UINavigationController *)[[self viewControllers] objectAtIndex:0] childViewControllers] objectAtIndex:0];
+    _show = [[(UINavigationController *)[[self viewControllers] objectAtIndex:1] childViewControllers] objectAtIndex:0];
+    self.delegate = _show;
     // Do any additional setup after loading the view.
 }
 
@@ -43,6 +40,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    if (!_show.player||!_show.player.readyForDisplay)
+    {
+        [super viewWillAppear:animated];
+        [_list refreshCourse];
+    }
+}
 /*
 #pragma mark - Navigation
 
@@ -54,6 +59,4 @@
 }
 */
 
-- (IBAction)chooseCourse:(id)sender {
-}
 @end

@@ -1,5 +1,5 @@
 //
-//  beihangMOOCCourseViewCell.h
+//  MOOCCourseViewCell.h
 //  MOOC@Beihang
 //
 //  Created by Satte on 14-8-6.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "UIImageView+SGImageCache.h"
 
-@interface beihangMOOCCourseViewCell : UICollectionViewCell
+@interface MOOCCourseViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property int courseid;
 
 @end

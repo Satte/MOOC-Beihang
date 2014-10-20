@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97945B7819ADB03A0009BB60 /* MOOCSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97945B7719ADB03A0009BB60 /* MOOCSettingView.m */; };
+		97AFCE0019AA549A00476C51 /* MOOCActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AFCDFF19AA549A00476C51 /* MOOCActivityIndicator.m */; };
+		97AFCE5319AB703600476C51 /* MOOCChapterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AFCE5219AB703600476C51 /* MOOCChapterList.m */; };
+		97AFCE5619AB704900476C51 /* MOOCSectionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AFCE5519AB704900476C51 /* MOOCSectionList.m */; };
+		97AFCE5919AB705B00476C51 /* MOOCPositionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AFCE5819AB705B00476C51 /* MOOCPositionList.m */; };
+		97AFCE5E19ACBAFB00476C51 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFCE5D19ACBAFB00476C51 /* MediaPlayer.framework */; };
+		97B7DD1A19B8E75B001C4061 /* MOOCQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B7DD1919B8E75B001C4061 /* MOOCQRCodeView.m */; };
+		97BA0D4E19B3202700C8420A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BA0D4D19B3202700C8420A /* CoreData.framework */; };
+		97BA0D5119B3212700C8420A /* MOOCCourseData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97BA0D4F19B3212700C8420A /* MOOCCourseData.xcdatamodeld */; };
+		97BA0D5419B3700C00C8420A /* MOOCCourseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BA0D5319B3700C00C8420A /* MOOCCourseData.m */; };
+		97BA0D9F19B375B000C8420A /* MOOCDatabaseCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BA0D9E19B375B000C8420A /* MOOCDatabaseCourse.m */; };
+		97BA0DA219B375B100C8420A /* MOOCDatabaseUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BA0DA119B375B100C8420A /* MOOCDatabaseUser.m */; };
+		97C870C6199B11B500CA4DD3 /* MOOCMyCourseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C870C5199B11B500CA4DD3 /* MOOCMyCourseList.m */; };
+		97C870C9199B14BF00CA4DD3 /* MOOCMyCourseShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C870C8199B14BF00CA4DD3 /* MOOCMyCourseShow.m */; };
+		97CE8F9419A0AF030072041C /* MOOCMyCourseSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8F9319A0AF030072041C /* MOOCMyCourseSplitView.m */; };
+		97CE914619A4C8460072041C /* MOOCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE914419A4C8460072041C /* MOOCConnection.m */; };
+		97CE914C19A4DB650072041C /* MOOCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE914B19A4DB650072041C /* MOOCMainView.m */; };
 		97FB0C19198CBFF500BB08B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FB0C18198CBFF500BB08B5 /* Foundation.framework */; };
 		97FB0C1B198CBFF500BB08B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FB0C1A198CBFF500BB08B5 /* CoreGraphics.framework */; };
 		97FB0C1D198CBFF500BB08B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FB0C1C198CBFF500BB08B5 /* UIKit.framework */; };
@@ -22,46 +39,14 @@
 		97FB0C45198CBFF500BB08B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C43198CBFF500BB08B5 /* InfoPlist.strings */; };
 		97FB0C47198CBFF500BB08B5 /* MOOC_BeihangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C46198CBFF500BB08B5 /* MOOC_BeihangTests.m */; };
 		97FB0C51198CCDCC00BB08B5 /* buaa_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C50198CCDCC00BB08B5 /* buaa_logo.png */; };
-		97FB0C54198CF5C000BB08B5 /* beihangMOOCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C53198CF5C000BB08B5 /* beihangMOOCLoginView.m */; };
-		97FB0C57198CF5E500BB08B5 /* beihangMOOCWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C56198CF5E500BB08B5 /* beihangMOOCWelcomeView.m */; };
+		97FB0C54198CF5C000BB08B5 /* MOOCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C53198CF5C000BB08B5 /* MOOCLoginView.m */; };
+		97FB0C57198CF5E500BB08B5 /* MOOCWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C56198CF5E500BB08B5 /* MOOCWelcomeView.m */; };
 		97FB0C621990C9ED00BB08B5 /* courses.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C5F1990C9ED00BB08B5 /* courses.png */; };
 		97FB0C631990C9ED00BB08B5 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C601990C9ED00BB08B5 /* edit.png */; };
 		97FB0C641990C9ED00BB08B5 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C611990C9ED00BB08B5 /* settings.png */; };
-		97FB0C6C19927DCD00BB08B5 /* beihangMOOCCourseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C6B19927DCD00BB08B5 /* beihangMOOCCourseViewCell.m */; };
-		97FB0C6F19927F0400BB08B5 /* beihangMOOCCourseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C6E19927F0400BB08B5 /* beihangMOOCCourseView.m */; };
-		97FB0C921992809200BB08B5 /* 0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C711992809200BB08B5 /* 0.JPG */; };
-		97FB0C941992809200BB08B5 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C731992809200BB08B5 /* 1.JPG */; };
-		97FB0C951992809200BB08B5 /* 10.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C741992809200BB08B5 /* 10.JPG */; };
-		97FB0C961992809200BB08B5 /* 11.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C751992809200BB08B5 /* 11.JPG */; };
-		97FB0C971992809200BB08B5 /* 12.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C761992809200BB08B5 /* 12.JPG */; };
-		97FB0C981992809200BB08B5 /* 13.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C771992809200BB08B5 /* 13.JPG */; };
-		97FB0C991992809200BB08B5 /* 14.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C781992809200BB08B5 /* 14.JPG */; };
-		97FB0C9A1992809200BB08B5 /* 15.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C791992809200BB08B5 /* 15.JPG */; };
-		97FB0C9B1992809200BB08B5 /* 16.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C7A1992809200BB08B5 /* 16.JPG */; };
-		97FB0C9C1992809200BB08B5 /* 17.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C7B1992809200BB08B5 /* 17.JPG */; };
-		97FB0C9D1992809200BB08B5 /* 18.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C7C1992809200BB08B5 /* 18.JPG */; };
-		97FB0C9E1992809200BB08B5 /* 19.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C7D1992809200BB08B5 /* 19.JPG */; };
-		97FB0C9F1992809200BB08B5 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C7E1992809200BB08B5 /* 2.JPG */; };
-		97FB0CA01992809200BB08B5 /* 20.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C7F1992809200BB08B5 /* 20.JPG */; };
-		97FB0CA11992809200BB08B5 /* 21.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C801992809200BB08B5 /* 21.JPG */; };
-		97FB0CA21992809200BB08B5 /* 22.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C811992809200BB08B5 /* 22.JPG */; };
-		97FB0CA31992809200BB08B5 /* 23.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C821992809200BB08B5 /* 23.JPG */; };
-		97FB0CA41992809200BB08B5 /* 24.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C831992809200BB08B5 /* 24.JPG */; };
-		97FB0CA51992809200BB08B5 /* 25.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C841992809200BB08B5 /* 25.JPG */; };
-		97FB0CA61992809200BB08B5 /* 26.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C851992809200BB08B5 /* 26.JPG */; };
-		97FB0CA71992809200BB08B5 /* 27.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C861992809200BB08B5 /* 27.JPG */; };
-		97FB0CA81992809200BB08B5 /* 28.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C871992809200BB08B5 /* 28.JPG */; };
-		97FB0CA91992809200BB08B5 /* 29.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C881992809200BB08B5 /* 29.JPG */; };
-		97FB0CAA1992809200BB08B5 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C891992809200BB08B5 /* 3.JPG */; };
-		97FB0CAB1992809200BB08B5 /* 30.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C8A1992809200BB08B5 /* 30.JPG */; };
-		97FB0CAC1992809200BB08B5 /* 31.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C8B1992809200BB08B5 /* 31.JPG */; };
-		97FB0CAD1992809200BB08B5 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C8C1992809200BB08B5 /* 4.JPG */; };
-		97FB0CAE1992809200BB08B5 /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C8D1992809200BB08B5 /* 5.JPG */; };
-		97FB0CAF1992809200BB08B5 /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C8E1992809200BB08B5 /* 6.JPG */; };
-		97FB0CB01992809200BB08B5 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C8F1992809200BB08B5 /* 7.JPG */; };
-		97FB0CB11992809200BB08B5 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C901992809200BB08B5 /* 8.JPG */; };
-		97FB0CB21992809200BB08B5 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0C911992809200BB08B5 /* 9.JPG */; };
-		97FB0CB51993867D00BB08B5 /* beihangMOOCCourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */; };
+		97FB0C6C19927DCD00BB08B5 /* MOOCCourseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C6B19927DCD00BB08B5 /* MOOCCourseViewCell.m */; };
+		97FB0C6F19927F0400BB08B5 /* MOOCCourseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0C6E19927F0400BB08B5 /* MOOCCourseView.m */; };
+		97FB0CB51993867D00BB08B5 /* MOOCCourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB0CB41993867D00BB08B5 /* MOOCCourseDetailView.m */; };
 		97FB0CB7199494B900BB08B5 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB0CB6199494B900BB08B5 /* login.png */; };
 /* End PBXBuildFile section */
 
@@ -76,16 +61,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97945B7619ADB03A0009BB60 /* MOOCSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCSettingView.h; sourceTree = "<group>"; };
+		97945B7719ADB03A0009BB60 /* MOOCSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOCSettingView.m; sourceTree = "<group>"; };
+		97AFCDFE19AA549A00476C51 /* MOOCActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCActivityIndicator.h; sourceTree = "<group>"; };
+		97AFCDFF19AA549A00476C51 /* MOOCActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOCActivityIndicator.m; sourceTree = "<group>"; };
+		97AFCE5119AB703600476C51 /* MOOCChapterList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCChapterList.h; sourceTree = "<group>"; };
+		97AFCE5219AB703600476C51 /* MOOCChapterList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCChapterList.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97AFCE5419AB704900476C51 /* MOOCSectionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCSectionList.h; sourceTree = "<group>"; };
+		97AFCE5519AB704900476C51 /* MOOCSectionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCSectionList.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97AFCE5719AB705B00476C51 /* MOOCPositionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCPositionList.h; sourceTree = "<group>"; };
+		97AFCE5819AB705B00476C51 /* MOOCPositionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOCPositionList.m; sourceTree = "<group>"; };
+		97AFCE5D19ACBAFB00476C51 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		97B7DD1819B8E75B001C4061 /* MOOCQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCQRCodeView.h; sourceTree = "<group>"; };
+		97B7DD1919B8E75B001C4061 /* MOOCQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOCQRCodeView.m; sourceTree = "<group>"; };
+		97B7DD1B19BF6D73001C4061 /* MOOCConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCConstraints.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97BA0D4D19B3202700C8420A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		97BA0D5019B3212700C8420A /* MOOCCourseData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MOOCCourseData.xcdatamodel; sourceTree = "<group>"; };
+		97BA0D5219B3700C00C8420A /* MOOCCourseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCCourseData.h; sourceTree = "<group>"; };
+		97BA0D5319B3700C00C8420A /* MOOCCourseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCCourseData.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97BA0D9D19B375B000C8420A /* MOOCDatabaseCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCDatabaseCourse.h; sourceTree = "<group>"; };
+		97BA0D9E19B375B000C8420A /* MOOCDatabaseCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCDatabaseCourse.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97BA0DA019B375B100C8420A /* MOOCDatabaseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCDatabaseUser.h; sourceTree = "<group>"; };
+		97BA0DA119B375B100C8420A /* MOOCDatabaseUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCDatabaseUser.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97C870C4199B11B500CA4DD3 /* MOOCMyCourseList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCMyCourseList.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97C870C5199B11B500CA4DD3 /* MOOCMyCourseList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCMyCourseList.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97C870C7199B14BF00CA4DD3 /* MOOCMyCourseShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCMyCourseShow.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97C870C8199B14BF00CA4DD3 /* MOOCMyCourseShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCMyCourseShow.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97CE8F9219A0AF030072041C /* MOOCMyCourseSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCMyCourseSplitView.h; sourceTree = "<group>"; };
+		97CE8F9319A0AF030072041C /* MOOCMyCourseSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCMyCourseSplitView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97CE914319A4C8460072041C /* MOOCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCConnection.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97CE914419A4C8460072041C /* MOOCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCConnection.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97CE914A19A4DB650072041C /* MOOCMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCMainView.h; sourceTree = "<group>"; };
+		97CE914B19A4DB650072041C /* MOOCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCMainView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97FB0C15198CBFF500BB08B5 /* MOOC@Beihang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOOC@Beihang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FB0C18198CBFF500BB08B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97FB0C1A198CBFF500BB08B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		97FB0C1C198CBFF500BB08B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		97FB0C20198CBFF500BB08B5 /* MOOC@Beihang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOOC@Beihang-Info.plist"; sourceTree = "<group>"; };
 		97FB0C22198CBFF500BB08B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		97FB0C24198CBFF500BB08B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97FB0C24198CBFF500BB08B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97FB0C26198CBFF500BB08B5 /* MOOC@Beihang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOOC@Beihang-Prefix.pch"; sourceTree = "<group>"; };
-		97FB0C27198CBFF500BB08B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		97FB0C28198CBFF500BB08B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97FB0C27198CBFF500BB08B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FB0C28198CBFF500BB08B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97FB0C2B198CBFF500BB08B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		97FB0C2E198CBFF500BB08B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		97FB0C33198CBFF500BB08B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -93,53 +110,21 @@
 		97FB0C3A198CBFF500BB08B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		97FB0C42198CBFF500BB08B5 /* MOOC@BeihangTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOOC@BeihangTests-Info.plist"; sourceTree = "<group>"; };
 		97FB0C44198CBFF500BB08B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		97FB0C46198CBFF500BB08B5 /* MOOC_BeihangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOOC_BeihangTests.m; sourceTree = "<group>"; };
+		97FB0C46198CBFF500BB08B5 /* MOOC_BeihangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOC_BeihangTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97FB0C50198CCDCC00BB08B5 /* buaa_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buaa_logo.png; sourceTree = "<group>"; };
-		97FB0C52198CF5C000BB08B5 /* beihangMOOCLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beihangMOOCLoginView.h; sourceTree = "<group>"; };
-		97FB0C53198CF5C000BB08B5 /* beihangMOOCLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beihangMOOCLoginView.m; sourceTree = "<group>"; };
-		97FB0C55198CF5E500BB08B5 /* beihangMOOCWelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beihangMOOCWelcomeView.h; sourceTree = "<group>"; };
-		97FB0C56198CF5E500BB08B5 /* beihangMOOCWelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beihangMOOCWelcomeView.m; sourceTree = "<group>"; };
+		97FB0C52198CF5C000BB08B5 /* MOOCLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCLoginView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FB0C53198CF5C000BB08B5 /* MOOCLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCLoginView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97FB0C55198CF5E500BB08B5 /* MOOCWelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCWelcomeView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FB0C56198CF5E500BB08B5 /* MOOCWelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCWelcomeView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97FB0C5F1990C9ED00BB08B5 /* courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courses.png; sourceTree = "<group>"; };
 		97FB0C601990C9ED00BB08B5 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
 		97FB0C611990C9ED00BB08B5 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
-		97FB0C6A19927DCD00BB08B5 /* beihangMOOCCourseViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beihangMOOCCourseViewCell.h; sourceTree = "<group>"; };
-		97FB0C6B19927DCD00BB08B5 /* beihangMOOCCourseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beihangMOOCCourseViewCell.m; sourceTree = "<group>"; };
-		97FB0C6D19927F0400BB08B5 /* beihangMOOCCourseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beihangMOOCCourseView.h; sourceTree = "<group>"; };
-		97FB0C6E19927F0400BB08B5 /* beihangMOOCCourseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beihangMOOCCourseView.m; sourceTree = "<group>"; };
-		97FB0C711992809200BB08B5 /* 0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.JPG; sourceTree = "<group>"; };
-		97FB0C731992809200BB08B5 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
-		97FB0C741992809200BB08B5 /* 10.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.JPG; sourceTree = "<group>"; };
-		97FB0C751992809200BB08B5 /* 11.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.JPG; sourceTree = "<group>"; };
-		97FB0C761992809200BB08B5 /* 12.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.JPG; sourceTree = "<group>"; };
-		97FB0C771992809200BB08B5 /* 13.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.JPG; sourceTree = "<group>"; };
-		97FB0C781992809200BB08B5 /* 14.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.JPG; sourceTree = "<group>"; };
-		97FB0C791992809200BB08B5 /* 15.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.JPG; sourceTree = "<group>"; };
-		97FB0C7A1992809200BB08B5 /* 16.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.JPG; sourceTree = "<group>"; };
-		97FB0C7B1992809200BB08B5 /* 17.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.JPG; sourceTree = "<group>"; };
-		97FB0C7C1992809200BB08B5 /* 18.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.JPG; sourceTree = "<group>"; };
-		97FB0C7D1992809200BB08B5 /* 19.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.JPG; sourceTree = "<group>"; };
-		97FB0C7E1992809200BB08B5 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
-		97FB0C7F1992809200BB08B5 /* 20.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.JPG; sourceTree = "<group>"; };
-		97FB0C801992809200BB08B5 /* 21.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.JPG; sourceTree = "<group>"; };
-		97FB0C811992809200BB08B5 /* 22.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.JPG; sourceTree = "<group>"; };
-		97FB0C821992809200BB08B5 /* 23.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.JPG; sourceTree = "<group>"; };
-		97FB0C831992809200BB08B5 /* 24.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.JPG; sourceTree = "<group>"; };
-		97FB0C841992809200BB08B5 /* 25.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.JPG; sourceTree = "<group>"; };
-		97FB0C851992809200BB08B5 /* 26.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.JPG; sourceTree = "<group>"; };
-		97FB0C861992809200BB08B5 /* 27.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.JPG; sourceTree = "<group>"; };
-		97FB0C871992809200BB08B5 /* 28.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.JPG; sourceTree = "<group>"; };
-		97FB0C881992809200BB08B5 /* 29.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.JPG; sourceTree = "<group>"; };
-		97FB0C891992809200BB08B5 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
-		97FB0C8A1992809200BB08B5 /* 30.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.JPG; sourceTree = "<group>"; };
-		97FB0C8B1992809200BB08B5 /* 31.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 31.JPG; sourceTree = "<group>"; };
-		97FB0C8C1992809200BB08B5 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
-		97FB0C8D1992809200BB08B5 /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
-		97FB0C8E1992809200BB08B5 /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
-		97FB0C8F1992809200BB08B5 /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
-		97FB0C901992809200BB08B5 /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
-		97FB0C911992809200BB08B5 /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
-		97FB0CB31993867D00BB08B5 /* beihangMOOCCourseDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beihangMOOCCourseDetailView.h; sourceTree = "<group>"; };
-		97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beihangMOOCCourseDetailView.m; sourceTree = "<group>"; };
+		97FB0C6A19927DCD00BB08B5 /* MOOCCourseViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCCourseViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FB0C6B19927DCD00BB08B5 /* MOOCCourseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCCourseViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97FB0C6D19927F0400BB08B5 /* MOOCCourseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCCourseView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FB0C6E19927F0400BB08B5 /* MOOCCourseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCCourseView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		97FB0CB31993867D00BB08B5 /* MOOCCourseDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MOOCCourseDetailView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		97FB0CB41993867D00BB08B5 /* MOOCCourseDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MOOCCourseDetailView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97FB0CB6199494B900BB08B5 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BA0D4E19B3202700C8420A /* CoreData.framework in Frameworks */,
+				97AFCE5E19ACBAFB00476C51 /* MediaPlayer.framework in Frameworks */,
 				97FB0C1B198CBFF500BB08B5 /* CoreGraphics.framework in Frameworks */,
 				97FB0C1D198CBFF500BB08B5 /* UIKit.framework in Frameworks */,
 				97FB0C19198CBFF500BB08B5 /* Foundation.framework in Frameworks */,
@@ -167,6 +154,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97BA0D9C19B3757400C8420A /* CourseData */ = {
+			isa = PBXGroup;
+			children = (
+				97BA0D4F19B3212700C8420A /* MOOCCourseData.xcdatamodeld */,
+				97BA0DA019B375B100C8420A /* MOOCDatabaseUser.h */,
+				97BA0DA119B375B100C8420A /* MOOCDatabaseUser.m */,
+				97BA0D9D19B375B000C8420A /* MOOCDatabaseCourse.h */,
+				97BA0D9E19B375B000C8420A /* MOOCDatabaseCourse.m */,
+				97BA0D5219B3700C00C8420A /* MOOCCourseData.h */,
+				97BA0D5319B3700C00C8420A /* MOOCCourseData.m */,
+			);
+			name = CourseData;
+			sourceTree = "<group>";
+		};
+		97CE8F9019A0AEC00072041C /* UserCourseViews */ = {
+			isa = PBXGroup;
+			children = (
+				97CE8F9219A0AF030072041C /* MOOCMyCourseSplitView.h */,
+				97CE8F9319A0AF030072041C /* MOOCMyCourseSplitView.m */,
+				97C870C7199B14BF00CA4DD3 /* MOOCMyCourseShow.h */,
+				97C870C8199B14BF00CA4DD3 /* MOOCMyCourseShow.m */,
+				97C870C4199B11B500CA4DD3 /* MOOCMyCourseList.h */,
+				97C870C5199B11B500CA4DD3 /* MOOCMyCourseList.m */,
+				97AFCE5119AB703600476C51 /* MOOCChapterList.h */,
+				97AFCE5219AB703600476C51 /* MOOCChapterList.m */,
+				97AFCE5419AB704900476C51 /* MOOCSectionList.h */,
+				97AFCE5519AB704900476C51 /* MOOCSectionList.m */,
+				97AFCE5719AB705B00476C51 /* MOOCPositionList.h */,
+				97AFCE5819AB705B00476C51 /* MOOCPositionList.m */,
+				97B7DD1819B8E75B001C4061 /* MOOCQRCodeView.h */,
+				97B7DD1919B8E75B001C4061 /* MOOCQRCodeView.m */,
+			);
+			name = UserCourseViews;
+			sourceTree = "<group>";
+		};
+		97CE8F9119A0AED70072041C /* AllCourseViews */ = {
+			isa = PBXGroup;
+			children = (
+				97FB0C6D19927F0400BB08B5 /* MOOCCourseView.h */,
+				97FB0C6E19927F0400BB08B5 /* MOOCCourseView.m */,
+				97FB0C6A19927DCD00BB08B5 /* MOOCCourseViewCell.h */,
+				97FB0C6B19927DCD00BB08B5 /* MOOCCourseViewCell.m */,
+				97FB0CB31993867D00BB08B5 /* MOOCCourseDetailView.h */,
+				97FB0CB41993867D00BB08B5 /* MOOCCourseDetailView.m */,
+			);
+			name = AllCourseViews;
+			sourceTree = "<group>";
+		};
+		97CE914019A4C6980072041C /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				97FB0C27198CBFF500BB08B5 /* AppDelegate.h */,
+				97FB0C28198CBFF500BB08B5 /* AppDelegate.m */,
+				97FB0C2A198CBFF500BB08B5 /* Main_iPhone.storyboard */,
+				97FB0C2D198CBFF500BB08B5 /* Main_iPad.storyboard */,
+				97FB0C33198CBFF500BB08B5 /* Images.xcassets */,
+				97AFCDFE19AA549A00476C51 /* MOOCActivityIndicator.h */,
+				97AFCDFF19AA549A00476C51 /* MOOCActivityIndicator.m */,
+				97B7DD1B19BF6D73001C4061 /* MOOCConstraints.h */,
+			);
+			name = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		97CE914119A4C7DF0072041C /* NetworkConnections */ = {
+			isa = PBXGroup;
+			children = (
+				97CE914319A4C8460072041C /* MOOCConnection.h */,
+				97CE914419A4C8460072041C /* MOOCConnection.m */,
+			);
+			name = NetworkConnections;
+			sourceTree = "<group>";
+		};
+		97CE914219A4C8150072041C /* OtherView */ = {
+			isa = PBXGroup;
+			children = (
+				97FB0C55198CF5E500BB08B5 /* MOOCWelcomeView.h */,
+				97FB0C56198CF5E500BB08B5 /* MOOCWelcomeView.m */,
+				97FB0C52198CF5C000BB08B5 /* MOOCLoginView.h */,
+				97FB0C53198CF5C000BB08B5 /* MOOCLoginView.m */,
+				97CE914A19A4DB650072041C /* MOOCMainView.h */,
+				97CE914B19A4DB650072041C /* MOOCMainView.m */,
+				97945B7619ADB03A0009BB60 /* MOOCSettingView.h */,
+				97945B7719ADB03A0009BB60 /* MOOCSettingView.m */,
+			);
+			name = OtherView;
+			sourceTree = "<group>";
+		};
 		97FB0C0C198CBFF400BB08B5 = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +263,8 @@
 		97FB0C17198CBFF500BB08B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97BA0D4D19B3202700C8420A /* CoreData.framework */,
+				97AFCE5D19ACBAFB00476C51 /* MediaPlayer.framework */,
 				97FB0C18198CBFF500BB08B5 /* Foundation.framework */,
 				97FB0C1A198CBFF500BB08B5 /* CoreGraphics.framework */,
 				97FB0C1C198CBFF500BB08B5 /* UIKit.framework */,
@@ -200,21 +276,12 @@
 		97FB0C1E198CBFF500BB08B5 /* MOOC@Beihang */ = {
 			isa = PBXGroup;
 			children = (
-				97FB0C27198CBFF500BB08B5 /* AppDelegate.h */,
-				97FB0C28198CBFF500BB08B5 /* AppDelegate.m */,
-				97FB0C2A198CBFF500BB08B5 /* Main_iPhone.storyboard */,
-				97FB0C2D198CBFF500BB08B5 /* Main_iPad.storyboard */,
-				97FB0C33198CBFF500BB08B5 /* Images.xcassets */,
-				97FB0C55198CF5E500BB08B5 /* beihangMOOCWelcomeView.h */,
-				97FB0C56198CF5E500BB08B5 /* beihangMOOCWelcomeView.m */,
-				97FB0C52198CF5C000BB08B5 /* beihangMOOCLoginView.h */,
-				97FB0C53198CF5C000BB08B5 /* beihangMOOCLoginView.m */,
-				97FB0C6D19927F0400BB08B5 /* beihangMOOCCourseView.h */,
-				97FB0C6E19927F0400BB08B5 /* beihangMOOCCourseView.m */,
-				97FB0C6A19927DCD00BB08B5 /* beihangMOOCCourseViewCell.h */,
-				97FB0C6B19927DCD00BB08B5 /* beihangMOOCCourseViewCell.m */,
-				97FB0CB31993867D00BB08B5 /* beihangMOOCCourseDetailView.h */,
-				97FB0CB41993867D00BB08B5 /* beihangMOOCCourseDetailView.m */,
+				97CE914119A4C7DF0072041C /* NetworkConnections */,
+				97BA0D9C19B3757400C8420A /* CourseData */,
+				97CE914219A4C8150072041C /* OtherView */,
+				97CE914019A4C6980072041C /* Miscellaneous */,
+				97CE8F9119A0AED70072041C /* AllCourseViews */,
+				97CE8F9019A0AEC00072041C /* UserCourseViews */,
 				97FB0C1F198CBFF500BB08B5 /* Supporting Files */,
 			);
 			path = "MOOC@Beihang";
@@ -223,7 +290,6 @@
 		97FB0C1F198CBFF500BB08B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97FB0C701992809200BB08B5 /* test */,
 				97FB0C581990C6AC00BB08B5 /* Bar Buttons */,
 				97FB0C50198CCDCC00BB08B5 /* buaa_logo.png */,
 				97FB0C20198CBFF500BB08B5 /* MOOC@Beihang-Info.plist */,
@@ -261,46 +327,6 @@
 				97FB0C611990C9ED00BB08B5 /* settings.png */,
 			);
 			name = "Bar Buttons";
-			sourceTree = "<group>";
-		};
-		97FB0C701992809200BB08B5 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				97FB0C711992809200BB08B5 /* 0.JPG */,
-				97FB0C731992809200BB08B5 /* 1.JPG */,
-				97FB0C741992809200BB08B5 /* 10.JPG */,
-				97FB0C751992809200BB08B5 /* 11.JPG */,
-				97FB0C761992809200BB08B5 /* 12.JPG */,
-				97FB0C771992809200BB08B5 /* 13.JPG */,
-				97FB0C781992809200BB08B5 /* 14.JPG */,
-				97FB0C791992809200BB08B5 /* 15.JPG */,
-				97FB0C7A1992809200BB08B5 /* 16.JPG */,
-				97FB0C7B1992809200BB08B5 /* 17.JPG */,
-				97FB0C7C1992809200BB08B5 /* 18.JPG */,
-				97FB0C7D1992809200BB08B5 /* 19.JPG */,
-				97FB0C7E1992809200BB08B5 /* 2.JPG */,
-				97FB0C7F1992809200BB08B5 /* 20.JPG */,
-				97FB0C801992809200BB08B5 /* 21.JPG */,
-				97FB0C811992809200BB08B5 /* 22.JPG */,
-				97FB0C821992809200BB08B5 /* 23.JPG */,
-				97FB0C831992809200BB08B5 /* 24.JPG */,
-				97FB0C841992809200BB08B5 /* 25.JPG */,
-				97FB0C851992809200BB08B5 /* 26.JPG */,
-				97FB0C861992809200BB08B5 /* 27.JPG */,
-				97FB0C871992809200BB08B5 /* 28.JPG */,
-				97FB0C881992809200BB08B5 /* 29.JPG */,
-				97FB0C891992809200BB08B5 /* 3.JPG */,
-				97FB0C8A1992809200BB08B5 /* 30.JPG */,
-				97FB0C8B1992809200BB08B5 /* 31.JPG */,
-				97FB0C8C1992809200BB08B5 /* 4.JPG */,
-				97FB0C8D1992809200BB08B5 /* 5.JPG */,
-				97FB0C8E1992809200BB08B5 /* 6.JPG */,
-				97FB0C8F1992809200BB08B5 /* 7.JPG */,
-				97FB0C901992809200BB08B5 /* 8.JPG */,
-				97FB0C911992809200BB08B5 /* 9.JPG */,
-			);
-			name = test;
-			path = ../thumb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +376,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = admire;
 				TargetAttributes = {
+					97FB0C14198CBFF500BB08B5 = {
+						DevelopmentTeam = T6P7474RKD;
+					};
 					97FB0C38198CBFF500BB08B5 = {
 						TestTargetID = 97FB0C14198CBFF500BB08B5;
 					};
@@ -379,47 +408,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97FB0CAC1992809200BB08B5 /* 31.JPG in Resources */,
-				97FB0CAB1992809200BB08B5 /* 30.JPG in Resources */,
-				97FB0CAA1992809200BB08B5 /* 3.JPG in Resources */,
-				97FB0CA91992809200BB08B5 /* 29.JPG in Resources */,
-				97FB0CA71992809200BB08B5 /* 27.JPG in Resources */,
-				97FB0CA41992809200BB08B5 /* 24.JPG in Resources */,
-				97FB0CA31992809200BB08B5 /* 23.JPG in Resources */,
-				97FB0CA21992809200BB08B5 /* 22.JPG in Resources */,
-				97FB0CA11992809200BB08B5 /* 21.JPG in Resources */,
-				97FB0C9F1992809200BB08B5 /* 2.JPG in Resources */,
-				97FB0C981992809200BB08B5 /* 13.JPG in Resources */,
-				97FB0C961992809200BB08B5 /* 11.JPG in Resources */,
-				97FB0CAD1992809200BB08B5 /* 4.JPG in Resources */,
-				97FB0C941992809200BB08B5 /* 1.JPG in Resources */,
-				97FB0C9A1992809200BB08B5 /* 15.JPG in Resources */,
-				97FB0CB01992809200BB08B5 /* 7.JPG in Resources */,
 				97FB0C641990C9ED00BB08B5 /* settings.png in Resources */,
 				97FB0C631990C9ED00BB08B5 /* edit.png in Resources */,
 				97FB0CB7199494B900BB08B5 /* login.png in Resources */,
-				97FB0CB21992809200BB08B5 /* 9.JPG in Resources */,
-				97FB0CAE1992809200BB08B5 /* 5.JPG in Resources */,
-				97FB0C9E1992809200BB08B5 /* 19.JPG in Resources */,
 				97FB0C2F198CBFF500BB08B5 /* Main_iPad.storyboard in Resources */,
 				97FB0C34198CBFF500BB08B5 /* Images.xcassets in Resources */,
-				97FB0C971992809200BB08B5 /* 12.JPG in Resources */,
 				97FB0C621990C9ED00BB08B5 /* courses.png in Resources */,
-				97FB0C9D1992809200BB08B5 /* 18.JPG in Resources */,
-				97FB0C951992809200BB08B5 /* 10.JPG in Resources */,
-				97FB0C991992809200BB08B5 /* 14.JPG in Resources */,
-				97FB0CA61992809200BB08B5 /* 26.JPG in Resources */,
-				97FB0CB11992809200BB08B5 /* 8.JPG in Resources */,
-				97FB0C9B1992809200BB08B5 /* 16.JPG in Resources */,
-				97FB0CA81992809200BB08B5 /* 28.JPG in Resources */,
 				97FB0C2C198CBFF500BB08B5 /* Main_iPhone.storyboard in Resources */,
-				97FB0C921992809200BB08B5 /* 0.JPG in Resources */,
-				97FB0C9C1992809200BB08B5 /* 17.JPG in Resources */,
 				97FB0C23198CBFF500BB08B5 /* InfoPlist.strings in Resources */,
-				97FB0CA51992809200BB08B5 /* 25.JPG in Resources */,
 				97FB0C51198CCDCC00BB08B5 /* buaa_logo.png in Resources */,
-				97FB0CAF1992809200BB08B5 /* 6.JPG in Resources */,
-				97FB0CA01992809200BB08B5 /* 20.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +435,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97FB0CB51993867D00BB08B5 /* beihangMOOCCourseDetailView.m in Sources */,
-				97FB0C6C19927DCD00BB08B5 /* beihangMOOCCourseViewCell.m in Sources */,
-				97FB0C54198CF5C000BB08B5 /* beihangMOOCLoginView.m in Sources */,
+				97CE8F9419A0AF030072041C /* MOOCMyCourseSplitView.m in Sources */,
+				97BA0D5419B3700C00C8420A /* MOOCCourseData.m in Sources */,
+				97FB0CB51993867D00BB08B5 /* MOOCCourseDetailView.m in Sources */,
+				97BA0D9F19B375B000C8420A /* MOOCDatabaseCourse.m in Sources */,
+				97BA0D5119B3212700C8420A /* MOOCCourseData.xcdatamodeld in Sources */,
+				97FB0C6C19927DCD00BB08B5 /* MOOCCourseViewCell.m in Sources */,
+				97C870C9199B14BF00CA4DD3 /* MOOCMyCourseShow.m in Sources */,
+				97BA0DA219B375B100C8420A /* MOOCDatabaseUser.m in Sources */,
+				97CE914C19A4DB650072041C /* MOOCMainView.m in Sources */,
+				97CE914619A4C8460072041C /* MOOCConnection.m in Sources */,
+				97FB0C54198CF5C000BB08B5 /* MOOCLoginView.m in Sources */,
+				97AFCE5619AB704900476C51 /* MOOCSectionList.m in Sources */,
+				97AFCE5319AB703600476C51 /* MOOCChapterList.m in Sources */,
+				97C870C6199B11B500CA4DD3 /* MOOCMyCourseList.m in Sources */,
+				97945B7819ADB03A0009BB60 /* MOOCSettingView.m in Sources */,
 				97FB0C29198CBFF500BB08B5 /* AppDelegate.m in Sources */,
-				97FB0C57198CF5E500BB08B5 /* beihangMOOCWelcomeView.m in Sources */,
-				97FB0C6F19927F0400BB08B5 /* beihangMOOCCourseView.m in Sources */,
+				97FB0C57198CF5E500BB08B5 /* MOOCWelcomeView.m in Sources */,
+				97AFCE5919AB705B00476C51 /* MOOCPositionList.m in Sources */,
+				97B7DD1A19B8E75B001C4061 /* MOOCQRCodeView.m in Sources */,
+				97FB0C6F19927F0400BB08B5 /* MOOCCourseView.m in Sources */,
+				97AFCE0019AA549A00476C51 /* MOOCActivityIndicator.m in Sources */,
 				97FB0C25198CBFF500BB08B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,10 +591,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MOOC@Beihang/MOOC@Beihang-Prefix.pch";
 				INFOPLIST_FILE = "MOOC@Beihang/MOOC@Beihang-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -592,10 +607,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MOOC@Beihang/MOOC@Beihang-Prefix.pch";
 				INFOPLIST_FILE = "MOOC@Beihang/MOOC@Beihang-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -671,6 +689,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97BA0D4F19B3212700C8420A /* MOOCCourseData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97BA0D5019B3212700C8420A /* MOOCCourseData.xcdatamodel */,
+			);
+			currentVersion = 97BA0D5019B3212700C8420A /* MOOCCourseData.xcdatamodel */;
+			name = MOOCCourseData.xcdatamodeld;
+			path = ../MOOCCourseData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 97FB0C0D198CBFF400BB08B5 /* Project object */;
 }

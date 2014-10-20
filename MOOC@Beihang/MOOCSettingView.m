@@ -1,18 +1,18 @@
 //
-//  beihangMOOCWelcomeView.m
+//  MOOCSettingView.m
 //  MOOC@Beihang
 //
-//  Created by Satte on 14-8-2.
+//  Created by Satte on 14-8-27.
 //  Copyright (c) 2014年 admire. All rights reserved.
 //
 
-#import "beihangMOOCWelcomeView.h"
+#import "MOOCSettingView.h"
 
-@interface beihangMOOCWelcomeView ()
+@interface MOOCSettingView ()
 
 @end
 
-@implementation beihangMOOCWelcomeView
+@implementation MOOCSettingView
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,8 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [_prog startAnimating];
-    [self performSelector:@selector(toLoginView) withObject:nil afterDelay:0.5];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,16 +45,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-- (IBAction)aboutUs:(id)sender
-{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://mooc.buaa.edu.cn/about"]];
-}
-
-- (void)toLoginView
-{
-    [_prog stopAnimating];
-    [self performSegueWithIdentifier:@"welcometoLogin" sender:nil];
-}
 
 @end
